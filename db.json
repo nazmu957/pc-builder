@@ -19,6 +19,11 @@
           "id": "2",
           "name": "Increased mental well-being",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+        },
+        {
+          "id": "3",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
@@ -32,17 +37,17 @@
       "image_url": "/images/pic1.webp",
       "features": [
         {
-          "id": "3",
+          "id": "4",
           "name": "Cutting-edge features",
           "description": "The smartphone comes with the latest and most advanced features to enhance user experience and productivity."
         },
         {
-          "id": "4",
+          "id": "5",
           "name": "Powerful processor",
           "description": "The phone is equipped with a high-performance processor for seamless multitasking and fast app loading."
         },
         {
-          "id": "5",
+          "id": "6",
           "name": "Impressive camera system",
           "description": "Capture stunning photos and videos with the smartphone's state-of-the-art camera system."
         }
@@ -59,14 +64,19 @@
       "image_url": "/images/pic2.png",
       "features": [
         {
-          "id": "6",
+          "id": "7",
           "name": "Successful satellite launch",
           "description": "SpaceX has successfully launched a communication satellite into the designated orbit, enabling improved global communication."
         },
         {
-          "id": "7",
+          "id": "8",
           "name": "Milestone achievement",
           "description": "The successful satellite launch marks a significant milestone in SpaceX's journey towards space exploration."
+        },
+        {
+          "id": "9",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
@@ -81,14 +91,19 @@
       "image_url": "/images/pic3.png",
       "features": [
         {
-          "id": "8",
+          "id": "10",
           "name": "Stress relief",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
-          "id": "9",
+          "id": "11",
           "name": "Sense of calm and well-being",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        },
+        {
+          "id": "12",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
@@ -103,14 +118,19 @@
       "image_url": "/images/pic4.jpeg",
       "features": [
         {
-          "id": "8",
+          "id": "13",
           "name": "Stress relief",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
-          "id": "9",
+          "id": "14",
           "name": "Sense of calm and well-being",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        },
+        {
+          "id": "15",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
@@ -125,28 +145,113 @@
       "image_url": "/images/pic5.jpeg",
       "features": [
         {
-          "id": "8",
+          "id": "16",
           "name": "Stress relief",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
-          "id": "9",
+          "id": "17",
           "name": "Sense of calm and well-being",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        },
+        {
+          "id": "18",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     }
   ],
   "details":[
     {
+      "id": "1",
+      "name": "Improved cardiovascular function",
+      "description": "Regular exercise helps improve heart health and increases overall cardiovascular function."
+    },
+    {
+      "id": "2",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+    },
+    {
       "id": "3",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+    },
+    {
+      "id": "4",
+      "name": "Cutting-edge features",
+      "description": "The smartphone comes with the latest and most advanced features to enhance user experience and productivity."
+    },
+    {
+      "id": "5",
+      "name": "Powerful processor",
+      "description": "The phone is equipped with a high-performance processor for seamless multitasking and fast app loading."
+    },
+    {
+      "id": "6",
+      "name": "Impressive camera system",
+      "description": "Capture stunning photos and videos with the smartphone's state-of-the-art camera system."
+    },
+    {
+      "id": "7",
+      "name": "Successful satellite launch",
+      "description": "SpaceX has successfully launched a communication satellite into the designated orbit, enabling improved global communication."
+    },
+    {
+      "id": "8",
+      "name": "Milestone achievement",
+      "description": "The successful satellite launch marks a significant milestone in SpaceX's journey towards space exploration."
+    },
+    {
+      "id": "9",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+    },
+    {
+      "id": "10",
       "name": "Stress relief",
       "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
     },
     {
-      "id": "9",
+      "id": "11",
       "name": "Sense of calm and well-being",
       "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+    },
+    {
+      "id": "12",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+    },
+    {
+      "id": "13",
+      "name": "Stress relief",
+      "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+    },
+    {
+      "id": "14",
+      "name": "Sense of calm and well-being",
+      "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+    },
+    {
+      "id": "15",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+    },
+    {
+      "id": "16",
+      "name": "Stress relief",
+      "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+    },
+    {
+      "id": "17",
+      "name": "Sense of calm and well-being",
+      "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+    },
+    {
+      "id": "18",
+      "name": "Increased mental well-being",
+      "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     }
   ]
 
