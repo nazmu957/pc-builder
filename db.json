@@ -136,6 +136,18 @@
         }
       ]
     }
+  ],
+  "details":[
+    {
+      "id": "3",
+      "name": "Stress relief",
+      "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+    },
+    {
+      "id": "9",
+      "name": "Sense of calm and well-being",
+      "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+    }
   ]
 
 }

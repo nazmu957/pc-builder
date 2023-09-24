@@ -44,13 +44,13 @@ const MultiProducts = ({ moreProducts }) => {
                 />
               }
             >
-              <h3>Product Name: {product?.title}</h3>
+              <h3>Product Name: {product?.name}</h3>
               <h3>Category: {product?.category}</h3>
               <h3>Price: {product?.price}</h3>
               <h3>Status: {product?.status}</h3>
               <h3>Rating: {product?.rating}</h3>
 
-              <Link href={`/products/${product?.id}`}>
+              <Link href={`/details/${product?.id}`}>
                 <p
                   style={{
                     fontSize: "15px",
