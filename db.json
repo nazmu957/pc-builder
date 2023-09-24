@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "New Study Reveals Benefits of Regular Exercise",
+      "description": "A recent study conducted by experts in the field suggests that regular exercise can have numerous health benefits, including improved cardiovascular function and increased mental well-being.",
+      "category": "Health",
+      "price": "$59",
+      "status": "stock",
+      "rating": "4",
+      "image_url": "/images/pic.webp",
+      "features": [
+        {
+          "id": "1",
+          "name": "Improved cardiovascular function",
+          "description": "Regular exercise helps improve heart health and increases overall cardiovascular function."
+        },
+        {
+          "id": "2",
+          "name": "Increased mental well-being",
+          "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Tech Company XYZ Launches Revolutionary Smartphone",
+      "description": "Tech Company XYZ has unveiled its latest smartphone model, boasting cutting-edge features, a powerful processor, and an impressive camera system.",
+      "category": "Technology",
+      "price": "$595",
+      "rating": "4",
+      "image_url": "/images/pic1.webp",
+      "features": [
+        {
+          "id": "3",
+          "name": "Cutting-edge features",
+          "description": "The smartphone comes with the latest and most advanced features to enhance user experience and productivity."
+        },
+        {
+          "id": "4",
+          "name": "Powerful processor",
+          "description": "The phone is equipped with a high-performance processor for seamless multitasking and fast app loading."
+        },
+        {
+          "id": "5",
+          "name": "Impressive camera system",
+          "description": "Capture stunning photos and videos with the smartphone's state-of-the-art camera system."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "SpaceX Successfully Launches Satellite into Orbit",
+      "description": "SpaceX, the private space exploration company, has successfully launched a communication satellite into orbit, marking another milestone in the company's achievements.",
+      "category": "Space",
+      "price": "$595",
+      "status": "stock",
+      "rating": "4",
+      "image_url": "/images/pic2.png",
+      "features": [
+        {
+          "id": "6",
+          "name": "Successful satellite launch",
+          "description": "SpaceX has successfully launched a communication satellite into the designated orbit, enabling improved global communication."
+        },
+        {
+          "id": "7",
+          "name": "Milestone achievement",
+          "description": "The successful satellite launch marks a significant milestone in SpaceX's journey towards space exploration."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
+      "category": "Lifestyle",
+      "price": "$595",
+      "status": "stock",
+      "rating": "4",
+      "image_url": "/images/pic3.png",
+      "features": [
+        {
+          "id": "8",
+          "name": "Stress relief",
+          "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+        },
+        {
+          "id": "9",
+          "name": "Sense of calm and well-being",
+          "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
+      "category": "Lifestyle",
+      "price": "$595",
+      "status": "stock",
+      "rating": "4",
+      "image_url": "/images/pic4.jpeg",
+      "features": [
+        {
+          "id": "8",
+          "name": "Stress relief",
+          "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+        },
+        {
+          "id": "9",
+          "name": "Sense of calm and well-being",
+          "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
+      "category": "Lifestyle",
+      "price": "$595",
+      "status": "stock",
+      "rating": "4",
+      "image_url": "/images/pic5.jpeg",
+      "features": [
+        {
+          "id": "8",
+          "name": "Stress relief",
+          "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
+        },
+        {
+          "id": "9",
+          "name": "Sense of calm and well-being",
+          "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
+        }
+      ]
+    }
+  ]
+
+}
