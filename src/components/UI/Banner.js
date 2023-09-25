@@ -1,56 +1,24 @@
-import { Col, Row, Carousel } from "antd";
-import {
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CommentOutlined,
-  ProfileOutlined,
-} from "@ant-design/icons";
-import Image from "next/image";
+import React from "react";
+import { Carousel } from "antd";
+
 import DrawingImage from "@/assets/images/banner-images/banner1.jpg";
 import EagleImage from "@/assets/images/banner-images/banner2.jpg";
 
+import Image from "next/image";
 const contentStyle = {
-  height: "550px",
-  color: "#000",
-  marginLeft: "8rem"
-
+  height: "560px",
+  color: "#fff",
+  lineHeight: "160px",
+  textAlign: "center",
+  background: "#364d79",
 };
-
 const Banner = () => (
-  <Carousel effect="fade" autoplay style={{ margin: "0px 0px" }}>
-    {/* slider-1 */}
+  <Carousel autoplay>
     <div>
-      <Row>
-        
-
-        <Col
-          lg={{
-            span: 20,
-          }}
-          style={contentStyle}
-        >
-          <Image src={DrawingImage} fill alt="drawing_image" />
-        </Col>
-      </Row>
+      <Image src={EagleImage} alt="image" />
     </div>
-    {/* slider-2 */}
     <div>
-      <Row>
-
-        <Col
-          lg={{
-            span: 20,
-          }}
-          style={contentStyle}
-        >
-          <Image
-            src={EagleImage}
-            fill
-            alt="eagle_image"
-            style={{ grayScale: "-1" }}
-          />
-        </Col>
-      </Row>
+      <Image src={EagleImage} alt="image" />
     </div>
   </Carousel>
 );
