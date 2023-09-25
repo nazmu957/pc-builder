@@ -34,30 +34,9 @@ const RootLayout = ({ children }) => {
                 />
               </svg>
             </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
+            
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">PC-Builder</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -69,19 +48,28 @@ const RootLayout = ({ children }) => {
             
             <li style={{ marginRight: "5rem" }} tabIndex={0}>
               <details>
-                <summary>Others</summary>
+                <summary>Categories</summary>
                 <ul style={{ width: "10rem", zIndex: "1000" }} className="p-2">
                   <li>
-                    <a>Submenu kdfsng kdf</a>
+                    <a>CPU/Processor</a>
                   </li>
                   <li>
-                    <a>Submenu kdfgdf</a>
+                    <a>Motherboard</a>
                   </li>
                   <li>
-                    <a>Submenu dfbfd</a>
+                    <a>RAM</a>
                   </li>
                   <li>
-                    <a>Submenu dfkjhgd</a>
+                    <a>Power Supply Unit</a>
+                  </li>
+                  <li>
+                    <a>Storage Device</a>
+                  </li>
+                  <li>
+                    <a>Monitor</a>
+                  </li>
+                  <li>
+                    <a>Others</a>
                   </li>
                 </ul>
               </details>
