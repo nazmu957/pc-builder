@@ -253,6 +253,194 @@
       "name": "Increased mental well-being",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "category": "CPU/Processor",
+      "products": [
+        {
+          "id": "99",
+          "image": "demo",
+          "name": "Apple",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "88",
+          "image": "HP",
+          "name": "HP",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Motherboard",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "category": "RAM",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },{
+      "id": "4",
+      "category": "Power Supply",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Storage Device",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "category": "Monitor",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "xyz",
+          "category": "CPU",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    },{
+      "id": "7",
+      "category": "Others",
+      "products": [
+        {
+          "id": "1",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "2",
+          "image": "demo",
+          "name": "abc",
+          "category": "CPU/Processor",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        }
+      ]
+    }
+  ],
+  "info": [
+    {
+      "id": "99",
+      "image": "demo",
+      "name": "Apple",
+      "category": "CPU/Processor",
+      "price": "543",
+      "status": "stock",
+      "rating": "4"
+    },
+    {
+      "id": "88",
+      "image": "demo",
+      "name": "HP",
+      "category": "CPU/Processor",
+      "price": "543",
+      "status": "stock",
+      "rating": "4"
+    }
   ]
 
 }

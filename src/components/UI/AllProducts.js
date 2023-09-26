@@ -19,7 +19,7 @@ const AllProducts = ({ allProducts }) => {
           margin: "30px 0px",
         }}
       >
-        Featured Products
+         Products
       </h1>
       <Row
         gutter={{
@@ -66,7 +66,7 @@ const AllProducts = ({ allProducts }) => {
                     textAlign: "center",
                   }}
                 >
-                  AddToCart 
+                  More Detail
                 </p>
               </Link>
             </Card>

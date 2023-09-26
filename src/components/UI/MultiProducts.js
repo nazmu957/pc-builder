@@ -64,7 +64,7 @@ const MultiProducts = ({ moreProducts }) => {
                     textAlign: "center",
                   }}
                 >
-                  AddToCart
+                  Detail
                 </p>
               </Link>
             </Card>
