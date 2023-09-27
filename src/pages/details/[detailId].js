@@ -18,7 +18,7 @@ const DetailPage = ({ detail }) => {
         }}
         // cover={<img alt="example" src={product?.image_url} />}
       >
-        
+        <img src={detail?.image_url} alt="" />
         <h3>Category: {detail?.name}</h3>
         <h3>Category: {detail?.description}</h3>
         

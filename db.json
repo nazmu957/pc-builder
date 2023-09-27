@@ -2,161 +2,180 @@
   "products": [
     {
       "id": "1",
-      "title": "New Study Reveals Benefits of Regular Exercise",
+      "title": "QuantumForce ProX",
       "description": "A recent study conducted by experts in the field suggests that regular exercise can have numerous health benefits, including improved cardiovascular function and increased mental well-being.",
-      "category": "Health",
+      "category": "Gaming Rig",
       "price": "$59",
       "status": "stock",
       "rating": "4",
-      "image_url": "/images/pic.webp",
+      "image_url": "/images/pc-7.jpg",
       "features": [
         {
           "id": "1",
           "name": "Improved cardiovascular function",
+          "image_url": "/images/pc-2.jpg",
           "description": "Regular exercise helps improve heart health and increases overall cardiovascular function."
         },
         {
           "id": "2",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-4.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         },
         {
           "id": "3",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-3.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
     {
       "id": "2",
-      "title": "Tech Company XYZ Launches Revolutionary Smartphone",
+      "title": "VelocityXtreme 9000",
       "description": "Tech Company XYZ has unveiled its latest smartphone model, boasting cutting-edge features, a powerful processor, and an impressive camera system.",
-      "category": "Technology",
+      "category": "Workstation PC",
       "price": "$595",
+      "status": "Out of stock",
       "rating": "4",
-      "image_url": "/images/pic1.webp",
+      "image_url": "/images/pc-2.jpg",
       "features": [
         {
           "id": "4",
           "name": "Cutting-edge features",
+          "image_url": "/images/pc-5.jpg",
           "description": "The smartphone comes with the latest and most advanced features to enhance user experience and productivity."
         },
         {
           "id": "5",
           "name": "Powerful processor",
+          "image_url": "/images/pc-7.jpg",
           "description": "The phone is equipped with a high-performance processor for seamless multitasking and fast app loading."
         },
         {
           "id": "6",
           "name": "Impressive camera system",
+          "image_url": "/images/pc-3.jpg",
           "description": "Capture stunning photos and videos with the smartphone's state-of-the-art camera system."
         }
       ]
     },
     {
       "id": "3",
-      "title": "SpaceX Successfully Launches Satellite into Orbit",
+      "title": "CyberFusion Nova",
       "description": "SpaceX, the private space exploration company, has successfully launched a communication satellite into orbit, marking another milestone in the company's achievements.",
-      "category": "Space",
+      "category": "Home Theater PC",
       "price": "$595",
       "status": "stock",
       "rating": "4",
-      "image_url": "/images/pic2.png",
+      "image_url": "/images/pc-3.jpg",
       "features": [
         {
           "id": "7",
           "name": "Successful satellite launch",
+          "image_url": "/images/pc-7.jpg",
           "description": "SpaceX has successfully launched a communication satellite into the designated orbit, enabling improved global communication."
         },
         {
           "id": "8",
           "name": "Milestone achievement",
+          "image_url": "/images/pc-4.jpg",
           "description": "The successful satellite launch marks a significant milestone in SpaceX's journey towards space exploration."
         },
         {
           "id": "9",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-2.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
     {
       "id": "4",
-      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "title": "PowerEdge TitanX",
       "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
-      "category": "Lifestyle",
+      "category": "Budget Build",
       "price": "$595",
       "status": "stock",
       "rating": "4",
-      "image_url": "/images/pic3.png",
+      "image_url": "/images/pc-4.jpg",
       "features": [
         {
           "id": "10",
           "name": "Stress relief",
+          "image_url": "/images/pc-2.jpg",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
           "id": "11",
           "name": "Sense of calm and well-being",
+          "image_url": "/images/pc-7.jpg",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
         },
         {
           "id": "12",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-5.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
     {
       "id": "5",
-      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "title": "Aurora PrimeStation",
       "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
-      "category": "Lifestyle",
+      "category": "Server Farm",
       "price": "$595",
       "status": "stock",
       "rating": "4",
-      "image_url": "/images/pic4.jpeg",
+      "image_url": "/images/pc-5.jpg",
       "features": [
         {
           "id": "13",
           "name": "Stress relief",
+          "image_url": "/images/pc-2.jpg",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
           "id": "14",
           "name": "Sense of calm and well-being",
+          "image_url": "/images/pc-3.jpg",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
         },
         {
           "id": "15",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-4.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
     },
     {
       "id": "6",
-      "title": "New Study Shows Benefits of Meditation for Stress Relief",
+      "title": "HyperDrive QuantumMaster",
       "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
-      "category": "Lifestyle",
+      "category": "Mini PC",
       "price": "$595",
       "status": "stock",
       "rating": "4",
-      "image_url": "/images/pic5.jpeg",
+      "image_url": "/images/pc-6.jpg",
       "features": [
         {
           "id": "16",
           "name": "Stress relief",
+          "image_url": "/images/pc-3.jpg",
           "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
         },
         {
           "id": "17",
           "name": "Sense of calm and well-being",
+          "image_url": "/images/pc-4.jpg",
           "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
         },
         {
           "id": "18",
           "name": "Increased mental well-being",
+          "image_url": "/images/pc-5.jpg",
           "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
         }
       ]
@@ -166,91 +185,109 @@
     {
       "id": "1",
       "name": "Improved cardiovascular function",
+      "image_url": "/images/pc-2.jpg",
       "description": "Regular exercise helps improve heart health and increases overall cardiovascular function."
     },
     {
       "id": "2",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-4.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     },
     {
       "id": "3",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-3.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     },
     {
       "id": "4",
       "name": "Cutting-edge features",
+      "image_url": "/images/pc-5.jpg",
       "description": "The smartphone comes with the latest and most advanced features to enhance user experience and productivity."
     },
     {
       "id": "5",
       "name": "Powerful processor",
+      "image_url": "/images/pc-7.jpg",
       "description": "The phone is equipped with a high-performance processor for seamless multitasking and fast app loading."
     },
     {
       "id": "6",
       "name": "Impressive camera system",
+      "image_url": "/images/pc-3.jpg",
       "description": "Capture stunning photos and videos with the smartphone's state-of-the-art camera system."
     },
     {
       "id": "7",
       "name": "Successful satellite launch",
+      "image_url": "/images/pc-7.jpg",
       "description": "SpaceX has successfully launched a communication satellite into the designated orbit, enabling improved global communication."
     },
     {
       "id": "8",
       "name": "Milestone achievement",
+      "image_url": "/images/pc-4.jpg",
       "description": "The successful satellite launch marks a significant milestone in SpaceX's journey towards space exploration."
     },
     {
       "id": "9",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-2.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     },
     {
       "id": "10",
       "name": "Stress relief",
+      "image_url": "/images/pc-2.jpg",
       "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
     },
     {
       "id": "11",
       "name": "Sense of calm and well-being",
+      "image_url": "/images/pc-7.jpg",
       "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
     },
     {
       "id": "12",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-5.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     },
     {
       "id": "13",
       "name": "Stress relief",
+      "image_url": "/images/pc-2.jpg",
       "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
     },
     {
       "id": "14",
       "name": "Sense of calm and well-being",
+      "image_url": "/images/pc-3.jpg",
       "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
     },
     {
       "id": "15",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-4.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     },
     {
       "id": "16",
       "name": "Stress relief",
+      "image_url": "/images/pc-3.jpg",
       "description": "Meditation is an effective practice to reduce stress and anxiety, leading to improved mental and emotional health."
     },
     {
       "id": "17",
       "name": "Sense of calm and well-being",
+      "image_url": "/images/pc-4.jpg",
       "description": "Regular meditation fosters a sense of inner peace and well-being, promoting a healthier and more balanced lifestyle."
     },
     {
       "id": "18",
       "name": "Increased mental well-being",
+      "image_url": "/images/pc-5.jpg",
       "description": "Engaging in regular physical activity can positively impact mental health and promote a sense of well-being and happiness."
     }
   ],
