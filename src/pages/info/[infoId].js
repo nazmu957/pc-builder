@@ -12,14 +12,27 @@ const InfoPage = ({ info }) => {
 
   return (
     <Card
-    hoverable
-    style={{
-      width: 240,
-    }}
-    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-  >
-    <Meta title={info.name} description="www.instagram.com" />
-  </Card>
+      hoverable
+      style={{
+        width: 240,
+      }}
+      cover={
+        <img
+          alt="example"
+          src={info.image}
+        />
+      }
+    >
+      <Meta title={info.name} description={info?.description} />
+
+      <p>Category: {info.category}</p>
+      <p>Individual_Rating: {info.individual_rating}</p>
+      <p>Average Rating: {info.rating}</p>
+      <p>Key_Features: {info.key_features}</p>
+      <p>Price:$ {info.price}</p>
+      <p>Reviews: {info.reviews}</p>
+      <p>Status: {info.status}</p>
+    </Card>
   );
 };
 
