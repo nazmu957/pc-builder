@@ -297,20 +297,29 @@
       "category": "CPU/Processor",
       "products": [
         {
-          "id": "99",
-          "image": "demo",
-          "name": "Apple",
+          "id": "1",
+          "image": "/images/cpu1.jpg",
+          "name": "Intel core-i9",
           "category": "CPU/Processor",
           "price": "543",
           "status": "stock",
           "rating": "4"
         },
         {
-          "id": "88",
-          "image": "HP",
-          "name": "HP",
+          "id": "2",
+          "image": "/images/cpu2.jpg",
+          "name": "Core i7",
           "category": "CPU/Processor",
           "price": "543",
+          "status": "stock",
+          "rating": "3"
+        },
+        {
+          "id": "3",
+          "image": "/images/cpu3.jpg",
+          "name": "RYZEN",
+          "category": "CPU/Processor",
+          "price": "356",
           "status": "stock",
           "rating": "4"
         }
@@ -321,20 +330,29 @@
       "category": "Motherboard",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "4",
+          "image": "/images/motherboard1.jpg",
+          "name": "ASUS ROG Strix Z590-E Gaming",
+          "category": "Motherboard",
+          "price": "243",
           "status": "stock",
-          "rating": "4"
+          "rating": "5"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
+          "id": "5",
+          "image": "/images/motherboard2.jpg",
+          "name": "MSI MPG B550 TOMAHAWK",
+          "category": "Motherboard",
           "price": "543",
+          "status": "stock",
+          "rating": "3"
+        },
+        {
+          "id": "6",
+          "image": "/images/motherboard3.jpg",
+          "name": "Gigabyte B450 AORUS ELITE",
+          "category": "Motherboard",
+          "price": "651",
           "status": "stock",
           "rating": "4"
         }
@@ -345,20 +363,29 @@
       "category": "RAM",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "7",
+          "image": "/images/ram1.jpg",
+          "name": "Corsair Vengeance LPX 16GB DDR4",
+          "category": "RAM",
+          "price": "43",
           "status": "stock",
           "rating": "4"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "8",
+          "image": "/images/ram2.jpg",
+          "name": "Kingston HyperX Fury 8GB DDR3",
+          "category": "RAM",
+          "price": "53",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "9",
+          "image": "/images/ram3.jpg",
+          "name": "G.Skill Ripjaws V Series 32GB DDR4",
+          "category": "RAM",
+          "price": "93",
           "status": "stock",
           "rating": "4"
         }
@@ -368,22 +395,31 @@
       "category": "Power Supply",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "10",
+          "image": "/images/power1.jpg",
+          "name": "EVGA SuperNOVA 750 G3",
+          "category": "Power Supply",
+          "price": "78",
+          "status": "stock",
+          "rating": "3"
+        },
+        {
+          "id": "11",
+          "image": "/images/power2.jpg",
+          "name": "Corsair RM850x",
+          "category": "Power Supply",
+          "price": "69",
           "status": "stock",
           "rating": "4"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "12",
+          "image": "/images/power3.jpg",
+          "name": "Corsair RM850x",
+          "category": "Power Supply",
+          "price": "77",
           "status": "stock",
-          "rating": "4"
+          "rating": "2"
         }
       ]
     },
@@ -392,19 +428,28 @@
       "category": "Storage Device",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
+          "id": "13",
+          "image": "/images/storage1.jpg",
+          "name": "Samsung 970 EVO Plus NVMe SSD",
+          "category": "Storage Device",
           "price": "543",
           "status": "stock",
           "rating": "4"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
+          "id": "14",
+          "image": "/images/storage2.jpg",
+          "name": "Western Digital Red Pro 6TB NAS Hard Drive",
+          "category": "Storage Device",
+          "price": "543",
+          "status": "stock",
+          "rating": "4"
+        },
+        {
+          "id": "15",
+          "image": "/images/storage3.jpg",
+          "name": "Crucial MX500 1TB SATA SSD",
+          "category": "Storage Device",
           "price": "543",
           "status": "stock",
           "rating": "4"
@@ -416,20 +461,29 @@
       "category": "Monitor",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "16",
+          "image": "/images/monitor1.jpg",
+          "name": "Asus",
+          "category": "Monitor",
+          "price": "355",
           "status": "stock",
-          "rating": "4"
+          "rating": "5"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "xyz",
-          "category": "CPU",
-          "price": "543",
+          "id": "17",
+          "image": "/images/monitor2.jpg",
+          "name": "Hp",
+          "category": "Monitor",
+          "price": "142",
+          "status": "stock",
+          "rating": "3"
+        },
+        {
+          "id": "18",
+          "image": "/images/monitor3.jpg",
+          "name": "Dell",
+          "category": "Monitor",
+          "price": "658",
           "status": "stock",
           "rating": "4"
         }
@@ -439,20 +493,29 @@
       "category": "Others",
       "products": [
         {
-          "id": "1",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "19",
+          "image": "/images/keboard.jpg",
+          "name": "Keyboard",
+          "category": "Others",
+          "price": "43",
           "status": "stock",
           "rating": "4"
         },
         {
-          "id": "2",
-          "image": "demo",
-          "name": "abc",
-          "category": "CPU/Processor",
-          "price": "543",
+          "id": "20",
+          "image": "/images/mouse.jpg",
+          "name": "Mouse",
+          "category": "Others",
+          "price": "53",
+          "status": "stock",
+          "rating": "3"
+        },
+        {
+          "id": "21",
+          "image": "/images/headphone.jpg",
+          "name": "Headphone",
+          "category": "Others",
+          "price": "54",
           "status": "stock",
           "rating": "4"
         }

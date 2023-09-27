@@ -16,11 +16,14 @@ const CategoryCard = ({ product }) => {
         cover={
           <img
             alt="example"
-            src=""
+            src={product.image}
           />
         }
       >
         <Meta title={product?.name} description={product.category} />
+        <p>price: {product?.price}</p>
+        <p>ratting: {product?.rating}</p>
+        <p>status: {product?.status}</p>
       </Card>
     </Link>
   );
