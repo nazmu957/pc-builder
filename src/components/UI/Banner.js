@@ -1,25 +1,19 @@
 import React from "react";
 import { Carousel } from "antd";
-
-import DrawingImage from "@/assets/images/banner-images/banner1.jpg";
-import EagleImage from "@/assets/images/banner-images/banner2.jpg";
-
+import styles from "@/styles/Banner.module.css";
+import New from "@/assets/images/banner-images/banner4.jpg";
+import Offer from "@/assets/images/banner-images/banner3.jpg";
 import Image from "next/image";
-const contentStyle = {
-  height: "560px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
+
 const Banner = () => (
-  <Carousel autoplay>
-    <div>
-      <Image src={EagleImage} alt="image" />
+  <Carousel style={{ marginTop: "2rem"}} autoplay>
+    <div className={styles["carousel-item"]}>
+      <Image src={New} alt="image" className={styles["carousel-image"]} />
     </div>
-    <div>
-      <Image src={EagleImage} alt="image" />
+    <div className={styles["carousel-item"]}>
+      <Image src={Offer} alt="image" className={styles["carousel-image"]} />
     </div>
   </Carousel>
 );
+
 export default Banner;

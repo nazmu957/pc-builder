@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "antd";
+import { Button, Card } from "antd";
 import Link from "next/link";
 const { Meta } = Card;
 
@@ -24,6 +24,7 @@ const CategoryCard = ({ product }) => {
         <p>price: {product?.price}</p>
         <p>ratting: {product?.rating}</p>
         <p>status: {product?.status}</p>
+        <Button>Add To Builder</Button>
       </Card>
     </Link>
   );

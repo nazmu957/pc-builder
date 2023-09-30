@@ -1,0 +1,21 @@
+/* Banner.module.css */
+/* Your existing styles */
+.carousel-item {
+  /* Default height for larger devices */
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-image {
+  /* Default width for all devices */
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    /* Decrease height for mobile devices */
+    height: 150px; /* Adjust this value as needed */
+  }
+}

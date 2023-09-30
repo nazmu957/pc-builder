@@ -15,7 +15,7 @@ const LoginPage = () => {
           <GoogleOutlined
             onClick={() =>
               signIn("google", {
-                callbackUrl: "https://pc-builder-nazmu957.vercel.app/",
+                callbackUrl: "https://pc-builder-nazmu957.vercel.app/login",
               })
             }
           />

@@ -1,5 +1,5 @@
-import { Card, Col, Row } from "antd";
-import Image from "next/image";
+import { Card, Col, Image, Row } from "antd";
+
 import {
   ArrowRightOutlined,
   CalendarOutlined,
@@ -7,25 +7,15 @@ import {
   ProfileOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
+import styles from "@/styles/AllProducts.module.css";
 
 const AllProducts = ({ allProducts }) => {
-  // console.log(allProducts.data)
-  const products = allProducts.data
-  console.log(products)
-  
+  const products = allProducts.data;
 
   const { Meta } = Card;
   return (
     <>
-      <h1
-        style={{
-          textAlign: "center",
-          fontSize: "50px",
-          margin: "30px 0px",
-        }}
-      >
-         Products
-      </h1>
+      <h1 className={styles.heading}>Products</h1>
       <Row
         gutter={{
           xs: 8,
@@ -35,53 +25,41 @@ const AllProducts = ({ allProducts }) => {
         }}
       >
         {products?.map((product) => (
-          <Col key={product.id} className="gutter-row" span={6}>
+          <Col
+            key={product.id}
+            className="gutter-row"
+            xs={24}
+            sm={12}
+            md={8}
+            lg={6}
+          >
             <Card
               hoverable
+              className={styles.card}
               cover={
                 <Image
                   src={product?.image_url}
-                  width={500}
-                  height={200}
-                  responsive
+                  layout="responsive"
+                  
+                  height={300}
                   alt="news image"
                 />
               }
             >
-              <h3>Product Name: {product?.title}</h3>
+              <h3 className={styles.title}>Product Name: {product?.title}</h3>
               <h3>Category: {product?.category}</h3>
               <h3>Price: {product?.price}</h3>
               <h3>Status: {product?.status}</h3>
               <h3>Rating: {product?.rating}</h3>
-
-              
-
-             
               <Link href={`/products/${product?.id}`}>
-                <p
-                  style={{
-                    fontSize: "15px",
-                    marginTop: "20px",
-                    backgroundColor: "black",
-                    color: "white",
-                    width: "100%",
-                    padding: "2px 5px ",
-                    fontWeight: "300",
-                    letterSpacing: "3px",
-                    textAlign: "center",
-                  }}
-                >
-                  More Detail
-                </p>
+                <p className={styles.link}>More Detail</p>
               </Link>
             </Card>
           </Col>
         ))}
       </Row>
     </>
-  
   );
 };
 
 export default AllProducts;
-

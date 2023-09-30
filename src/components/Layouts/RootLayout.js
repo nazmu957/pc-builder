@@ -12,6 +12,9 @@ const { Header, Content, Footer } = Layout;
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
+import Image from "next/image";
+
+
 
 const RootLayout = ({ children }) => {
 
@@ -22,27 +25,22 @@ const RootLayout = ({ children }) => {
     <Layout>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-          </div>
-          <a className="btn btn-ghost normal-case text-xl">PC-Builder</a>
+          <img 
+            style={{ width: "4rem",borderRadius: "1.8rem",padding: ".2rem 0rem .2rem 0rem"  }}
+            src="https://img.freepik.com/free-vector/creative-computer-logo-template_23-2149213537.jpg?w=1800&t=st=1696074264~exp=1696074864~hmac=ab473acc60e0d4055b9701fbf74245796a360e94b84b057777cd94972f791169"
+            alt=""
+          />
+          
         </div>
         <div className="navbar-center hidden lg:flex">
+          <Link className="btn   text-xl" href={"/pc_builder"}>
+            <Button style={{ backgroundColor: "skyblue" }} type="primary">
+              {" "}
+              PC-Builder
+            </Button>
+          </Link>
+        </div>
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {/* <Link
               className="btn"
@@ -86,9 +84,7 @@ const RootLayout = ({ children }) => {
           <Link
             style={{ textDecoration: "none", color: "white" }}
             href="/profile"
-          >
-            
-          </Link>
+          ></Link>
           {session?.user ? (
             <items>
               <Button onClick={() => signOut()} type="primary" danger>
@@ -103,9 +99,6 @@ const RootLayout = ({ children }) => {
               <items>Login</items>
             </Link>
           )}
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
         </div>
       </div>
 
