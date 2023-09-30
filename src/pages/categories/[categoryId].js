@@ -26,7 +26,9 @@ CategoryDetailPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/categories");
+  const res = await fetch(
+    "https://pc-builder-server-ruddy.vercel.app/categories"
+  );
   const categories = await res.json();
 
   const paths = categories?.data?.map((category) => ({
@@ -39,7 +41,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:5000/categories/${params.categoryId}`
+    `https://pc-builder-server-ruddy.vercel.app/categories/${params.categoryId}`
   );
   const data = await res.json();
   //  console.log(data.features)
@@ -52,7 +54,7 @@ export const getStaticProps = async (context) => {
 // export const getStaticProps = async () => {
 
 //   const res = await fetch(
-//     "http://localhost:5000/categories/${params.categoryId}"
+//     "https://pc-builder-server-ruddy.vercel.app/categories/${params.categoryId}"
 //   );
 //   const data = await res.json();
 //     console.log(data)

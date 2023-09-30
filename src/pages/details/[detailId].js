@@ -6,9 +6,8 @@ import { Card } from "antd";
 const { Meta } = Card;
 
 const DetailPage = ({ detail }) => {
-    console.log(detail)
-  
-  
+  console.log(detail);
+
   return (
     <div>
       <Card
@@ -21,9 +20,7 @@ const DetailPage = ({ detail }) => {
         <img src={detail?.image_url} alt="" />
         <h3>Category: {detail?.name}</h3>
         <h3>Category: {detail?.description}</h3>
-        
       </Card>
-      
     </div>
   );
 };
@@ -35,7 +32,7 @@ DetailPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/details");
+  const res = await fetch("https://pc-builder-server-ruddy.vercel.app/details");
   const details = await res.json();
 
   const paths = details?.data?.map((detail) => ({
@@ -47,7 +44,9 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/details/${params.detailId}`);
+  const res = await fetch(
+    `https://pc-builder-server-ruddy.vercel.app/details/${params.detailId}`
+  );
   const data = await res.json();
   //  console.log(data.features)
   return {

@@ -4,11 +4,8 @@ import React from "react";
 import { Card } from "antd";
 const { Meta } = Card;
 
-
-
-
 const InfoPage = ({ info }) => {
-  console.log(info)
+  console.log(info);
 
   return (
     <Card
@@ -16,12 +13,7 @@ const InfoPage = ({ info }) => {
       style={{
         width: 240,
       }}
-      cover={
-        <img
-          alt="example"
-          src={info.image}
-        />
-      }
+      cover={<img alt="example" src={info.image} />}
     >
       <Meta title={info.name} description={info?.description} />
 
@@ -43,21 +35,23 @@ InfoPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/info");
+  const res = await fetch("https://pc-builder-server-ruddy.vercel.app/info");
   const infos = await res.json();
 
   const paths = infos?.data?.map((info) => ({
     params: { infoId: info.id },
   }));
- 
+
   return { paths, fallback: false };
 };
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/info/${params.infoId}`);
+  const res = await fetch(
+    `https://pc-builder-server-ruddy.vercel.app/info/${params.infoId}`
+  );
   const data = await res.json();
-   
+
   return {
     props: {
       info: data,

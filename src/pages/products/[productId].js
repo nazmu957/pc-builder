@@ -23,7 +23,7 @@ const ProductDetailPage = ({ product }) => {
         <h3>Status: {product?.status}</h3>
         <h3>Rating: {product?.rating}</h3>
       </Card>
-     <MultiProducts moreProducts={moreProducts} />
+      <MultiProducts moreProducts={moreProducts} />
     </div>
   );
 };
@@ -35,20 +35,23 @@ ProductDetailPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch(
+    "https://pc-builder-server-ruddy.vercel.app/products"
+  );
   const products = await res.json();
 
   const paths = products?.data?.map((product) => ({
     params: { productId: product.id },
   }));
 
-
   return { paths, fallback: false };
 };
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/products/${params.productId}`);
+  const res = await fetch(
+    `https://pc-builder-server-ruddy.vercel.app/products/${params.productId}`
+  );
   const data = await res.json();
   //  console.log(data.features)
   return {
@@ -57,4 +60,3 @@ export const getStaticProps = async (context) => {
     },
   };
 };
-

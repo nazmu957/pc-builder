@@ -58,23 +58,18 @@ const RootLayout = ({ children }) => {
                     <Link href={"/categories/2"}>Motherboard</Link>
                   </li>
                   <li>
-                    
                     <Link href={"/categories/3"}>RAM</Link>
                   </li>
                   <li>
-                    
                     <Link href={"/categories/4"}>Power Supply Unit</Link>
                   </li>
                   <li>
-                    
                     <Link href={"/categories/5"}>Storage Device</Link>
                   </li>
                   <li>
-                   
                     <Link href={"/categories/6"}>Monitor</Link>
                   </li>
                   <li>
-                    
                     <Link href={"/categories/7"}>Others</Link>
                   </li>
                 </ul>

@@ -7,7 +7,7 @@ import { useGetCategoriesQuery } from "@/redux/api/api";
 import axios from "axios";
 
 const HomePage = ({ allProducts, allCategories }) => {
-   console.log(allProducts);
+  console.log(allProducts);
 
   const { data, isLoading, isError, error } = useGetCategoriesQuery();
 
@@ -35,17 +35,14 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-
 export const getStaticProps = async () => {
   try {
-    const apiUrl1 = "http://localhost:5000/products";
-    const apiUrl2 = "http://localhost:5000/categories";
-    
+    const apiUrl1 = "https://pc-builder-server-ruddy.vercel.app/products";
+    const apiUrl2 = "https://pc-builder-server-ruddy.vercel.app/categories";
 
     const [data1, data2] = await axios.all([
       axios.get(apiUrl1),
       axios.get(apiUrl2),
-      
     ]);
 
     console.log(data1.data, data2.data);
@@ -64,18 +61,14 @@ export const getStaticProps = async () => {
       props: {
         allProducts: [],
         allCategories: [],
-       
       },
       revalidate: 10,
     };
   }
 };
 
-
-
-
 // export const getStaticProps = async () => {
-//   const res = await fetch("http://localhost:5000/products");
+//   const res = await fetch("https://pc-builder-server-ruddy.vercel.app/products");
 //   // const res = await fetch("http://localhost:3000/api/products");
 //   const data = await res.json();
 //   console.log(data);
