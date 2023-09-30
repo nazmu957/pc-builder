@@ -34,42 +34,48 @@ const RootLayout = ({ children }) => {
                 />
               </svg>
             </label>
-            
           </div>
           <a className="btn btn-ghost normal-case text-xl">PC-Builder</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            
-            
-            
-            
-            
-            
+            {/* <Link
+              className="btn"
+              key={category.id}
+              href={`/categories/${category?.id}`}
+            >
+              {category.category}{" "}
+            </Link> */}
+
             <li style={{ marginRight: "5rem" }} tabIndex={0}>
               <details>
                 <summary>Categories</summary>
                 <ul style={{ width: "10rem", zIndex: "1000" }} className="p-2">
                   <li>
-                    <a>CPU/Processor</a>
+                    <Link href={"/categories/1"}>CPU/Processor</Link>
                   </li>
                   <li>
-                    <a>Motherboard</a>
+                    <Link href={"/categories/2"}>Motherboard</Link>
                   </li>
                   <li>
-                    <a>RAM</a>
+                    
+                    <Link href={"/categories/3"}>RAM</Link>
                   </li>
                   <li>
-                    <a>Power Supply Unit</a>
+                    
+                    <Link href={"/categories/4"}>Power Supply Unit</Link>
                   </li>
                   <li>
-                    <a>Storage Device</a>
+                    
+                    <Link href={"/categories/5"}>Storage Device</Link>
                   </li>
                   <li>
-                    <a>Monitor</a>
+                   
+                    <Link href={"/categories/6"}>Monitor</Link>
                   </li>
                   <li>
-                    <a>Others</a>
+                    
+                    <Link href={"/categories/7"}>Others</Link>
                   </li>
                 </ul>
               </details>
