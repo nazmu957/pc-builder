@@ -7,17 +7,13 @@ import CategoryCard from "@/components/UI/CategoryCard";
 const { Meta } = Card;
 
 const CategoryDetailPage = ({ category }) => {
-  
   const productCategories = category.products;
-//   console.log(productCategories);
+  console.log(productCategories);
 
-  
   return (
     <div>
       {productCategories?.map((product) => (
-        
         <CategoryCard key={product.id} product={product} />
-
       ))}
     </div>
   );
@@ -33,7 +29,7 @@ export const getStaticPaths = async () => {
   const res = await fetch("http://localhost:5000/categories");
   const categories = await res.json();
 
-  const paths = categories?.map((category) => ({
+  const paths = categories?.data?.map((category) => ({
     params: { categoryId: category.id },
   }));
 
@@ -53,3 +49,16 @@ export const getStaticProps = async (context) => {
     },
   };
 };
+// export const getStaticProps = async () => {
+
+//   const res = await fetch(
+//     "http://localhost:5000/categories/${params.categoryId}"
+//   );
+//   const data = await res.json();
+//     console.log(data)
+//   return {
+//     props: {
+//       category: data
+//     },
+//   };
+// };

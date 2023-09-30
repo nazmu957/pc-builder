@@ -46,7 +46,7 @@ export const getStaticPaths = async () => {
   const res = await fetch("http://localhost:5000/info");
   const infos = await res.json();
 
-  const paths = infos?.map((info) => ({
+  const paths = infos?.data?.map((info) => ({
     params: { infoId: info.id },
   }));
  

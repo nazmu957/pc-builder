@@ -9,6 +9,11 @@ import {
 import Link from "next/link";
 
 const AllProducts = ({ allProducts }) => {
+  // console.log(allProducts.data)
+  const products = allProducts.data
+  console.log(products)
+  
+
   const { Meta } = Card;
   return (
     <>
@@ -29,7 +34,7 @@ const AllProducts = ({ allProducts }) => {
           lg: 32,
         }}
       >
-        {allProducts?.map((product) => (
+        {products?.map((product) => (
           <Col key={product.id} className="gutter-row" span={6}>
             <Card
               hoverable
@@ -74,6 +79,7 @@ const AllProducts = ({ allProducts }) => {
         ))}
       </Row>
     </>
+  
   );
 };
 

@@ -1,8 +1,9 @@
+import { useGetCategoriesQuery } from "@/redux/api/api";
 import Link from "next/link";
 
-const AllCategories = ({ categories }) => {
-  console.log(categories);
-
+const AllCategories = ({ allCategories }) => {
+  console.log(allCategories.data);
+  const categories = allCategories.data;
   return (
     <>
       <h1
@@ -14,9 +15,14 @@ const AllCategories = ({ categories }) => {
       >
         Fetured Products
       </h1>
-      {categories?.map((category) => (
-        <Link className="btn" key={category.id} href={`/categories/${category?.id}`}>{category.category} </Link>
-       
+      {categories.map((category) => (
+        <Link
+          className="btn"
+          key={category.id}
+          href={`/categories/${category?.id}`}
+        >
+          {category.category}{" "}
+        </Link>
       ))}
     </>
   );

@@ -4,12 +4,13 @@ import Banner from "@/components/UI/Banner";
 import AllProducts from "@/components/UI/AllProducts";
 import AllCategories from "@/components/UI/AllCategories";
 import { useGetCategoriesQuery } from "@/redux/api/api";
+import axios from "axios";
 
-const HomePage = ({ allProducts}) => {
-  // console.log(allProducts);
+const HomePage = ({ allProducts, allCategories }) => {
+   console.log(allProducts);
 
-  const {data, isLoading, isError, error} = useGetCategoriesQuery ();
-  // console.log(data)
+  const { data, isLoading, isError, error } = useGetCategoriesQuery();
+
   const categories = data;
   return (
     <>
@@ -24,7 +25,7 @@ const HomePage = ({ allProducts}) => {
       </Head>
       <Banner />
       <AllProducts allProducts={allProducts} />
-      <AllCategories categories={categories} />
+      <AllCategories allCategories={allCategories} />
     </>
   );
 };
@@ -34,15 +35,55 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
-  const data = await res.json();
-  console.log(data);
 
-  return {
-    props: {
-      allProducts: data,
-    },
-    revalidate: 10,
-  };
+export const getStaticProps = async () => {
+  try {
+    const apiUrl1 = "http://localhost:5000/products";
+    const apiUrl2 = "http://localhost:5000/categories";
+    
+
+    const [data1, data2] = await axios.all([
+      axios.get(apiUrl1),
+      axios.get(apiUrl2),
+      
+    ]);
+
+    console.log(data1.data, data2.data);
+
+    return {
+      props: {
+        allProducts: data1.data,
+        allCategories: data2.data,
+      },
+      revalidate: 10,
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    // Handle error as needed
+    return {
+      props: {
+        allProducts: [],
+        allCategories: [],
+       
+      },
+      revalidate: 10,
+    };
+  }
 };
+
+
+
+
+// export const getStaticProps = async () => {
+//   const res = await fetch("http://localhost:5000/products");
+//   // const res = await fetch("http://localhost:3000/api/products");
+//   const data = await res.json();
+//   console.log(data);
+
+//   return {
+//     props: {
+//       allProducts: data,
+//     },
+//     revalidate: 10,
+//   };
+// };
