@@ -7,12 +7,17 @@ import {
   GoogleSquareFilled,
   TwitterSquareFilled,
 } from "@ant-design/icons";
-import { Layout, Menu } from "antd";
+import { Button, Layout, Menu } from "antd";
 const { Header, Content, Footer } = Layout;
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import { useSession, signOut } from "next-auth/react";
 
 const RootLayout = ({ children }) => {
+
+  const { data: session } = useSession();
+
+  console.log(session)
   return (
     <Layout>
       <div className="navbar bg-base-100">
@@ -76,6 +81,28 @@ const RootLayout = ({ children }) => {
               </details>
             </li>
           </ul>
+        </div>
+        <div>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            href="/profile"
+          >
+            
+          </Link>
+          {session?.user ? (
+            <items>
+              <Button onClick={() => signOut()} type="primary" danger>
+                Logout
+              </Button>
+            </items>
+          ) : (
+            <Link
+              style={{ textDecoration: "none", color: "white" }}
+              href="/login"
+            >
+              <items>Login</items>
+            </Link>
+          )}
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
