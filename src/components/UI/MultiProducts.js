@@ -20,7 +20,7 @@ const MultiProducts = ({ moreProducts }) => {
           margin: "30px 0px",
         }}
       >
-        Featured Products
+        More Components
       </h1>
       <Row
         gutter={{
@@ -31,14 +31,20 @@ const MultiProducts = ({ moreProducts }) => {
         }}
       >
         {moreProducts?.map((product) => (
-          <Col key={product.id} className="gutter-row" span={6}>
+          <Col
+            key={product.id}
+            className="gutter-row"
+            xs={24}
+            sm={12}
+            md={8}
+            lg={8}
+          >
             <Card
               hoverable
               cover={
-                <Image
+                <img
                   src={product?.image_url}
-                  width={500}
-                  height={200}
+                  style={{ height: "20rem" }}
                   responsive
                   alt="news image"
                 />

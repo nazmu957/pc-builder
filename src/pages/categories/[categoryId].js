@@ -12,6 +12,9 @@ const CategoryDetailPage = ({ category }) => {
 
   return (
     <div>
+      <h1 style={{ textAlign: "center", fontSize: "2.5rem" }}>
+        Components
+      </h1>
       {productCategories?.map((product) => (
         <CategoryCard key={product.id} product={product} />
       ))}

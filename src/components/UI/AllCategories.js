@@ -1,9 +1,10 @@
+import { Card, Row, Col } from "antd";
 import { useGetCategoriesQuery } from "@/redux/api/api";
 import Link from "next/link";
 
 const AllCategories = ({ allCategories }) => {
-  console.log(allCategories.data);
   const categories = allCategories.data;
+
   return (
     <>
       <h1
@@ -13,20 +14,30 @@ const AllCategories = ({ allCategories }) => {
           margin: "30px 0px",
         }}
       >
-        Fetured Products
+        Featured Products
       </h1>
-      {categories.map((category) => (
-        <Link
-          className="btn"
-          key={category.id}
-          href={`/categories/${category?.id}`}
-        >
-          {category.category}{" "}
-        </Link>
-      ))}
+      <Row style={{ marginBottom: "2.5rem"}} gutter={[16, 16]}>
+        {categories.map((category) => (
+          <Col xs={24} sm={12} md={8} lg={6} key={category.id}>
+            <Link href={`/categories/${category?.id}`}>
+              <Card
+                hoverable
+                style={{
+                  textAlign: "center",
+                  background:
+                    "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,5,13,1) 0%, rgba(12,35,86,1) 96%)", // Specify your gradient colors here
+                  color: "white",
+                  border: "none",
+                }}
+              >
+                <h1 style={{ fontSize: "1.2rem"}} >{category.category}</h1>
+              </Card>
+            </Link>
+          </Col>
+        ))}
+      </Row>
     </>
   );
 };
 
 export default AllCategories;
-

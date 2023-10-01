@@ -28,7 +28,8 @@
 .social_icons{
     width: 30%;
     font-size: 40px;
-    margin: 20px auto;
+    margin: 40px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }

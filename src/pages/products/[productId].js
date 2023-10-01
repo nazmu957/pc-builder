@@ -10,7 +10,7 @@ const ProductDetailPage = ({ product }) => {
   console.log(moreProducts);
   return (
     <div>
-      <Card
+      {/* <Card
         hoverable
         style={{
           width: 240,
@@ -22,7 +22,27 @@ const ProductDetailPage = ({ product }) => {
         <h3>Price: {product?.price}</h3>
         <h3>Status: {product?.status}</h3>
         <h3>Rating: {product?.rating}</h3>
-      </Card>
+      </Card> */}
+      <div style={{ margin: "2rem" }} className="card w-96 glass">
+        <h1 style={{ textAlign: "center", fontSize: "2.5rem", margin: "1rem" }}>
+          Components Details
+        </h1>
+        <figure>
+          <img
+            style={{ width: "30rem", height: "40rem" }}
+            src={product?.image_url}
+            alt="car!"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">{product.title}</h2>
+          <h3>Category: {product?.category}</h3>
+          <h3>Price: {product?.price}</h3>
+          <h3>Status: {product?.status}</h3>
+          <h3>Rating: {product?.rating}</h3>
+        </div>
+      </div>
+
       <MultiProducts moreProducts={moreProducts} />
     </div>
   );

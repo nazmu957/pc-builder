@@ -10,25 +10,17 @@ const LoginPage = () => {
         <title>Next Login</title>
       </Head>
       <div className={styles.form}>
-        <h3>LOGIN</h3>
         <div className={styles.social_icons}>
           <GoogleOutlined
             onClick={() =>
               signIn("google", {
-                callbackUrl: "https://pc-builder-nazmu957.vercel.app/login",
+                callbackUrl: "https://pc-builder-nazmu957.vercel.app/",
               })
             }
           />
-          <GithubOutlined />
         </div>
-        <hr />
-        <form>
-          <label htmlFor="">Your Email</label>
-          <input type="email" />
-          <label htmlFor="">Your Password</label>
-          <input type="password" />
-          <Button>Login</Button>
-        </form>
+        <h3>LOGIN WITH GOOGLE</h3>
+        <p>Click the icon</p>
       </div>
     </div>
   );

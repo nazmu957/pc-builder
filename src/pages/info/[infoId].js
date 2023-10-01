@@ -8,23 +8,44 @@ const InfoPage = ({ info }) => {
   console.log(info);
 
   return (
-    <Card
-      hoverable
-      style={{
-        width: 240,
-      }}
-      cover={<img alt="example" src={info.image} />}
-    >
-      <Meta title={info.name} description={info?.description} />
+    // <Card
+    //   hoverable
+    //   style={{
+    //     width: 240,
+    //   }}
+    //   cover={<img alt="example" src={info.image} />}
+    // >
+    //   <Meta title={info.name} description={info?.description} />
 
-      <p>Category: {info.category}</p>
-      <p>Individual_Rating: {info.individual_rating}</p>
-      <p>Average Rating: {info.rating}</p>
-      <p>Key_Features: {info.key_features}</p>
-      <p>Price:$ {info.price}</p>
-      <p>Reviews: {info.reviews}</p>
-      <p>Status: {info.status}</p>
-    </Card>
+    //   <p>Category: {info.category}</p>
+    //   <p>Individual_Rating: {info.individual_rating}</p>
+    //   <p>Average Rating: {info.rating}</p>
+    //   <p>Key_Features: {info.key_features}</p>
+    //   <p>Price:$ {info.price}</p>
+    //   <p>Reviews: {info.reviews}</p>
+    //   <p>Status: {info.status}</p>
+    // </Card>
+    <div style={{ margin: "2rem" }} className="card w-96 glass">
+      <h1 style={{ textAlign: "center", fontSize: "2.5rem", margin: "1rem"}}>Components Details</h1>
+      <figure>
+        <img
+          style={{ width: "30rem", height: "40rem" }}
+          src={info.image}
+          alt="car!"
+        />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">{info.name}</h2>
+        <p>Category: {info.category}</p>
+        <p>{info?.description}</p>
+        <p>Individual_Rating: {info.individual_rating}</p>
+        <p>Average Rating: {info.rating}</p>
+        <p>Key_Features: {info.key_features}</p>
+        <p>Price:$ {info.price}</p>
+        <p>Reviews: {info.reviews}</p>
+        <p>Status: {info.status}</p>
+      </div>
+    </div>
   );
 };
 

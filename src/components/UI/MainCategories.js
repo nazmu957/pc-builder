@@ -1,5 +1,6 @@
 import { useGetCategoriesQuery } from "@/redux/api/api";
 import Link from "next/link";
+import PcBuilderPage from "./PcBuilder";
 
 const AllCategories = ({ allCategories }) => {
   console.log(allCategories.data);
@@ -16,14 +17,8 @@ const AllCategories = ({ allCategories }) => {
         Pc Builder
       </h1>
       {categories.map((category) => (
-        <Link
-        style={{ backgroundColor: "white", color: "black", marginRight: "5px"}}
-          className="btn  "
-          key={category.id}
-          href={`/categories/${category?.id}`}
-        >
-          {category.category}{" "}
-        </Link>
+       
+        <PcBuilderPage key={category.id} category={category} />
       ))}
     </>
   );
