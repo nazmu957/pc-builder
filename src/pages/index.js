@@ -21,7 +21,7 @@ const HomePage = ({ allProducts, allCategories }) => {
           content="This is news portal of programming hero made by next-js"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://i.ibb.co/vc6pqZ3/logo.jpg" />
       </Head>
       <Banner />
       <AllProducts allProducts={allProducts} />

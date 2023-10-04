@@ -16,6 +16,6 @@
 @media (max-width: 767px) {
   .carousel-item {
     /* Decrease height for mobile devices */
-    height: 150px; /* Adjust this value as needed */
+    height: 170px; /* Adjust this value as needed */
   }
 }

@@ -2,7 +2,7 @@
 .heading {
   text-align: center;
   font-size: 50px;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .card {
@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
   .heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .title {
