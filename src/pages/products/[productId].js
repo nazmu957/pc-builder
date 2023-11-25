@@ -10,21 +10,9 @@ const ProductDetailPage = ({ product }) => {
   console.log(moreProducts);
   return (
     <div>
-      {/* <Card
-        hoverable
-        style={{
-          width: 240,
-        }}
-        cover={<img alt="example" src={product?.image_url} />}
-      >
-        <Meta title={product.title} />
-        <h3>Category: {product?.category}</h3>
-        <h3>Price: {product?.price}</h3>
-        <h3>Status: {product?.status}</h3>
-        <h3>Rating: {product?.rating}</h3>
-      </Card> */}
+      
       <div style={{ margin: "2rem" }} className="card w-96 glass">
-        <h1 style={{ textAlign: "center", fontSize: "2.5rem", margin: "1rem" }}>
+        <h1 style={{ textAlign: "center", fontSize: "2.5rem", margin: "1rem" ,color: "black"}}>
           Components Details
         </h1>
         <figure>
@@ -34,10 +22,10 @@ const ProductDetailPage = ({ product }) => {
             alt="car!"
           />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">{product.title}</h2>
-          <h3>Category: {product?.category}</h3>
-          <h3>Price: {product?.price}</h3>
+        <div style={{ color: "black"}} className="card-body ">
+          <h2 className="card-title ">{product.title}</h2>
+          <h3 >Category: {product?.category}</h3>
+          <h3>Price:{product?.price}</h3>
           <h3>Status: {product?.status}</h3>
           <h3>Rating: {product?.rating}</h3>
         </div>
