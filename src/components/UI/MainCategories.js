@@ -14,7 +14,7 @@ const AllCategories = ({ allCategories }) => {
           margin: "30px 0px",
         }}
       >
-        Pc Builder
+        Pc Builder Page
       </h1>
       {categories.map((category) => (
        
